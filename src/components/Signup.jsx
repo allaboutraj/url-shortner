@@ -125,7 +125,7 @@ const Signup = () => {
         {errors.profile_pic && <Error message={errors.profile_pic} />}
       </CardContent>
       <CardFooter>
-        <Button onClick={handleSignup}>
+        <Button className="w-full" onClick={handleSignup}>
           {loading ? (
             <BeatLoader size={10} color="#36d7b7" />
           ) : (
