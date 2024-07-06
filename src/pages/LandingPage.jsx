@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -8,6 +7,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { useState } from "react";
 
 const LandingPage = () => {
   const [longUrl, setLongUrl] = useState();
