@@ -42,11 +42,39 @@ const LandingPage = () => {
         alt="Banner"
         className="w-full my-11 md:px-11"
       ></img>
+      {/* <Carousel>
+        <CarouselContent>
+          <CarouselItem>
+            <img
+              src="/3.jpg"
+              alt="Banner"
+              className="w-60% my-11 md:px-11"
+            ></img>
+          </CarouselItem>
+          <CarouselItem>
+            <img
+              src="/banner.png"
+              alt="Banner"
+              className="w-60% my-11 md:px-11"
+            ></img>
+          </CarouselItem>
+          <CarouselItem>
+            <img
+              src="/1.jpg"
+              alt="Banner"
+              className="w-60% my-11 md:px-11 bg-cover align-center"
+            ></img>
+          </CarouselItem>
+        </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
+      </Carousel> */}
+
       <Accordion type="multiple" collapsible className="w-full md:px-11">
         <AccordionItem value="item-1">
           <AccordionTrigger>How this URL shortner will work?</AccordionTrigger>
           <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
+            Create Account using Signup and Login with Add you long url.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
@@ -54,14 +82,13 @@ const LandingPage = () => {
             What analytics are available for my shortened?
           </AccordionTrigger>
           <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
+            Yes. All the analytics like Device, country and city per clicks
+            details wit graphics
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
           <AccordionTrigger>Is it accessible?</AccordionTrigger>
-          <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
-          </AccordionContent>
+          <AccordionContent>Yes.</AccordionContent>
         </AccordionItem>
       </Accordion>
     </div>
